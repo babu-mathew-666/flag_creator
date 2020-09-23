@@ -11,6 +11,8 @@ def convert(flag):
             result += '6'
         elif i == ' ':
             result += '_'
+        elif i == 'e' or i == 'E':
+            result += '3'
         else:
             result += i
     return result
